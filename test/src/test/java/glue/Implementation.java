@@ -10,6 +10,6 @@ public class Implementation {
 	public void test() throws Throwable{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe" );
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://apple.com");
+		driver.get("http://google.com");
 	}
 }
